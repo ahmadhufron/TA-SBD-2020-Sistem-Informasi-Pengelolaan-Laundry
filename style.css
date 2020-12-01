@@ -1,0 +1,86 @@
+body{
+	font-family: 'roboto';
+    color: #000;
+    /*background-color: #E6E6FA;*/
+    background: #FFA64D;
+}
+
+a{
+	/*color: #fff;*/
+    text-decoration: none;	
+    color: black;
+}
+
+
+.table{
+	border-collapse: collapse;
+}
+
+table.table th th , table.table tr td{
+    padding: 10px 20px	;
+    background-color: #95faab;
+    border: 2px dashed #141616;
+}
+table.table th th , table.table tr th{
+    padding: 10px 20px	;
+    background-color: #57ff24;
+}
+button[type=submit] {
+    background-color:#000000;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'roboto';
+    display : inline-block;
+  }
+h1{
+    color: black;
+    text-align: center;
+}
+a:hover {
+    background-color:	#95faab;
+  }
+
+button{
+    background-color:#57ff24;
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'roboto';
+    margin-right: 30px;
+    border-radius: 3px;
+    padding:10px;
+  }
+  button:hover {
+    background-color:	#95faab;
+  }
+
+.kotak{
+  width: 400px;
+	background:#57ff24;
+	margin: 40px auto;
+  padding: 20px 20px;
+  border-radius: 3px;
+}
+.form_login{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+.submit{
+  background-color:#020202;
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'roboto';
+  width: 100%;
+  border-radius: 3px;
+}
+.submit:hover {
+  background-color:	#87CEFA;
+}
